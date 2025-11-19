@@ -1,0 +1,50 @@
+.chutro-menu {
+    background: #0045A8 !important;
+    color: white !important;
+}
+
+.chutro-menu .ant-menu-item,
+.chutro-menu .ant-menu-submenu-title {
+    color: white !important;
+    margin: 4px 0 !important;
+}
+
+.chutro-menu .ant-menu-item:hover,
+.chutro-menu .ant-menu-submenu-title:hover {
+    background: rgba(255, 255, 255, 0.15) !important;
+    color: white !important;
+}
+
+.chutro-menu .ant-menu-item-selected {
+    background: rgba(255, 255, 255, 0.25) !important;
+    color: white !important;
+}
+
+.chutro-menu .ant-menu-item-selected::after {
+    display: none !important;
+}
+
+.chutro-menu .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow {
+    color: white !important;
+}
+
+.chutro-menu .ant-menu-submenu-open > .ant-menu-submenu-title {
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.chutro-menu .ant-menu-sub {
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.chutro-menu .ant-menu-sub .ant-menu-item {
+    padding-left: 48px !important;
+}
+
+.chutro-menu .ant-menu-item-danger {
+    color: white !important;
+}
+
+.chutro-menu .ant-menu-item-danger:hover {
+    background: rgba(255, 77, 79, 0.2) !important;
+    color: #ff4d4f !important;
+}

@@ -1,0 +1,224 @@
+.chutro-page-title {
+    text-align: center !important;
+    color: #023E8A !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    margin-bottom: 24px !important;
+    margin-top: 0 !important;
+    width: 100% !important;
+    display: block !important;
+}
+
+.chutro-page-title.ant-typography {
+    text-align: center !important;
+    color: #023E8A !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    margin-bottom: 24px !important;
+    margin-top: 0 !important;
+}
+
+.chutro-page-title.ant-typography h2 {
+    text-align: center !important;
+    color: #023E8A !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+.chutro-action-button {
+    height: 40px !important;
+    min-width: 120px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    border-radius: 6px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: all 0.3s ease !important;
+}
+
+.chutro-action-button:not(:disabled):hover {
+    opacity: 0.85 !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+.chutro-action-button:disabled {
+    opacity: 0.6 !important;
+    cursor: not-allowed !important;
+}
+
+.table-row-even {
+    background: white !important;
+}
+
+.table-row-odd {
+    background: #fafafa !important;
+}
+
+.ant-table-thead > tr > th {
+    background: #e0e0e0 !important;
+    font-weight: bold !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 14px !important;
+    color: #333 !important;
+}
+
+.ant-table-tbody > tr > td {
+    font-family: Arial, sans-serif !important;
+    font-size: 14px !important;
+    color: #333 !important;
+    padding: 12px 8px !important;
+    border: 1px solid #e8e8e8 !important;
+}
+
+.ant-table-tbody > tr.table-row-even {
+    background: white !important;
+}
+
+.ant-table-tbody > tr.table-row-odd {
+    background: #fafafa !important;
+}
+
+.ant-table {
+    font-family: Arial, sans-serif !important;
+}
+
+.ant-table-bordered > .ant-table-container {
+    border: 1px solid #e8e8e8 !important;
+}
+
+.ant-table-bordered > .ant-table-container > .ant-table-body > table > tbody > tr > td {
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+.tinh-tien-card {
+    border: none !important;
+    box-shadow: 0 12px 30px rgba(10, 40, 100, 0.08) !important;
+    border-radius: 12px !important;
+    padding: 24px !important;
+}
+
+.tinh-tien-filters label {
+    display: block;
+    font-weight: 600;
+    color: #0d2c6b;
+    margin-bottom: 6px;
+}
+
+.tinh-tien-filters .ant-input {
+    border-radius: 10px;
+    height: 44px;
+    border: 1px solid #d9e2ff;
+}
+
+.tinh-tien-buttons {
+    margin: 20px 0;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.invoice-action-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.chutro-action-button.secondary {
+    background: #00B7FF !important;
+    border: none !important;
+    color: #fff !important;
+}
+
+.chutro-action-button.pay {
+    background: white !important;
+    color: #00B7FF !important;
+    border: 1px solid #00B7FF !important;
+}
+
+.chutro-action-button.info {
+    background: #FF5C00 !important;
+    border: none !important;
+    color: #fff !important;
+}
+
+.chutro-action-button.danger {
+    background: #FF0000 !important;
+    border: none !important;
+    color: #fff !important;
+}
+
+.invoice-status-tag {
+    border-radius: 999px;
+    padding: 4px 14px;
+    font-weight: 600;
+    color: #fff !important;
+}
+
+.tinh-tien-table .ant-table-thead > tr > th {
+    background: #f4f7ff !important;
+    color: #1a2b4b !important;
+}
+
+.invoice-detail-modal .ant-modal-content {
+    border-radius: 16px;
+    padding: 0;
+}
+
+.invoice-detail-content {
+    padding: 24px 30px;
+}
+
+.invoice-detail-title {
+    text-align: center;
+    margin-bottom: 0 !important;
+    color: #0d2c6b !important;
+}
+
+.invoice-detail-period {
+    display: block;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.invoice-detail-info p {
+    margin: 0;
+    color: #333;
+    font-weight: 500;
+}
+
+.invoice-detail-items {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.invoice-detail-row {
+    display: flex;
+    justify-content: space-between;
+    color: #444;
+}
+
+.invoice-detail-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #0d2c6b;
+}
+
+.invoice-note {
+    display: block;
+    text-align: right;
+    margin-top: 4px;
+}
+
+.invoice-modal-actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.invoice-row.selected td {
+    background: #e8f3ff !important;
+}

@@ -1,0 +1,196 @@
+.home-header {
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.home-header-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    gap: 40px;
+}
+
+.home-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    min-width: 160px;
+}
+
+.home-logo-image {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+.home-logo-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0045A8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: Arial, sans-serif;
+}
+
+.home-header-nav {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    flex: 1;
+    justify-content: center;
+}
+
+.home-nav-link {
+    text-decoration: none;
+    color: #0045A8;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    padding: 8px 16px;
+    transition: color 0.3s;
+    white-space: nowrap;
+}
+
+.home-nav-link:hover {
+    color: #003380;
+}
+
+.home-nav-link.active {
+    font-weight: 700;
+    color: #001f5b;
+    border-bottom: 2px solid #0045A8;
+}
+
+.nav-separator {
+    color: #e0e0e0;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 4px;
+}
+
+.home-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.home-login-link,
+.home-register-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    color: #0045A8;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    transition: color 0.3s;
+}
+
+.home-login-link:hover,
+.home-register-link:hover {
+    color: #003380;
+}
+
+.home-action-icon {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.home-post-button {
+    padding: 10px 24px;
+    background: #0045A8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    transition: background 0.3s;
+    white-space: nowrap;
+}
+
+.home-post-button:hover {
+    background: #003380;
+}
+
+@media (max-width: 1024px) {
+    .home-header-content {
+        padding: 15px 30px;
+        gap: 30px;
+    }
+
+    .home-nav-link {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .home-header-actions {
+        gap: 15px;
+    }
+
+    .home-login-link,
+    .home-register-link {
+        font-size: 14px;
+    }
+
+    .home-post-button {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-header-content {
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 15px 20px;
+    }
+
+    .home-logo {
+        min-width: auto;
+    }
+
+    .home-logo-text {
+        font-size: 14px;
+    }
+
+    .home-header-nav {
+        order: 3;
+        width: 100%;
+        justify-content: flex-start;
+        gap: 0;
+        overflow-x: auto;
+        padding: 10px 0;
+    }
+
+    .home-nav-link {
+        white-space: nowrap;
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+    .home-header-actions {
+        gap: 10px;
+        margin-left: auto;
+    }
+
+    .home-login-link span:last-child,
+    .home-register-link span:last-child {
+        display: none;
+    }
+
+    .home-post-button {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+}

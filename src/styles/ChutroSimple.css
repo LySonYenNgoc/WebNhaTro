@@ -1,0 +1,211 @@
+/* Chutro Pages - Simple CSS for Newbie Style */
+
+/* Page Container */
+.chutro-page-container {
+    background: white;
+    padding: 24px;
+    min-height: calc(100vh - 64px);
+    font-family: Arial, sans-serif;
+}
+
+/* Title Section */
+.chutro-title-section {
+    margin-bottom: 20px;
+}
+
+.chutro-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chutro-page-title {
+    text-align: center;
+    color: #023E8A;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Filter Section */
+.chutro-filter-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+}
+
+.chutro-filter-row {
+    margin-bottom: 20px;
+}
+
+.chutro-filter-item {
+    margin-bottom: 16px;
+}
+
+.chutro-label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.chutro-input {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    height: 36px;
+}
+
+/* Button Section */
+.chutro-button-section {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-top: 1px solid #e8e8e8;
+    padding-top: 16px;
+}
+
+.chutro-button {
+    height: 40px;
+    min-width: 130px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+}
+
+.chutro-button-primary {
+    background-color: #0045A8;
+    border-color: #0045A8;
+    color: #fff;
+}
+
+.chutro-button-blue {
+    background-color: #00B7FF;
+    border-color: #00B7FF;
+    color: #fff;
+}
+
+.chutro-button-orange {
+    background-color: #FF5C00;
+    border-color: #FF5C00;
+    color: #fff;
+}
+
+.chutro-button-red {
+    background-color: #FF0000;
+    border-color: #FF0000;
+    color: #fff;
+}
+
+.chutro-button-refresh {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Table Section */
+.chutro-table-section {
+    padding: 20px;
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+}
+
+.chutro-table-cell {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Table Header */
+.ant-table-thead > tr > th {
+    background: #e0e0e0;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    padding: 12px 8px;
+    text-align: center;
+    border: 1px solid #d0d0d0;
+}
+
+/* Table Body */
+.ant-table-tbody > tr > td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    padding: 12px 8px;
+    border: 1px solid #e8e8e8;
+}
+
+.table-row-even {
+    background: white;
+}
+
+.table-row-odd {
+    background: #fafafa;
+}
+
+/* Empty State */
+.chutro-empty-state {
+    padding: 40px;
+    text-align: center;
+    color: #999;
+}
+
+.chutro-empty-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.chutro-empty-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.chutro-empty-desc {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+/* Search Form */
+.chutro-search-form {
+    padding: 20px;
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background: #fafafa;
+}
+
+.chutro-search-button-row {
+    margin-top: 16px;
+    text-align: right;
+}
+
+.chutro-search-button {
+    height: 36px;
+    min-width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    margin-right: 8px;
+}
+
+.chutro-input-number {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.chutro-save-button {
+    background-color: #1890ff;
+    border-color: #1890ff;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+

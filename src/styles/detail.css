@@ -1,0 +1,302 @@
+.detail-page {
+    background: #f5f7fb;
+    min-height: 100vh;
+}
+
+.detail-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 16px 60px;
+}
+
+.back-button {
+    border: none;
+    background: transparent;
+    color: #0045a8;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.detail-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background: #fff;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 15px 40px rgba(0, 16, 60, 0.08);
+}
+
+.detail-hero h1 {
+    font-size: 32px;
+    margin: 8px 0 12px;
+    color: #0b1f4a;
+}
+
+.detail-address {
+    color: #516181;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.quick-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+}
+
+.quick-stat-item {
+    background: #f7f9ff;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.stat-label {
+    color: #6a768f;
+    font-size: 14px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.stat-value {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0b1f4a;
+}
+
+.price-card {
+    border: 1px solid #e1e7ff;
+    border-radius: 18px;
+    padding: 24px;
+    max-width: 320px;
+    background: linear-gradient(180deg, #fafdff 0%, #f0f5ff 100%);
+}
+
+.price-label {
+    color: #6a768f;
+    margin-bottom: 8px;
+}
+
+.price-value {
+    font-size: 32px;
+    font-weight: 700;
+    color: #e8543d;
+}
+
+.price-note,
+.update-note {
+    font-size: 13px;
+    color: #7a889f;
+    margin-top: 10px;
+}
+
+.detail-gallery {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 16px;
+}
+
+.detail-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.main-image {
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.thumbnail-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.thumb {
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.thumb.more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 25, 88, 0.8);
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.detail-highlights {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+.highlight-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    box-shadow: 0 10px 24px rgba(15, 60, 120, 0.08);
+}
+
+.icon-wrapper {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    background: #eef3ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: #0045a8;
+}
+
+.highlight-label {
+    margin: 0;
+    color: #6a768f;
+    font-size: 14px;
+}
+
+.highlight-value {
+    margin: 2px 0 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0b1f4a;
+}
+
+.detail-description,
+.detail-amenities,
+.detail-host {
+    margin-top: 32px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 28px;
+    box-shadow: 0 10px 30px rgba(5, 31, 77, 0.05);
+}
+
+.detail-description h2,
+.detail-amenities h2,
+.detail-host h2 {
+    margin-bottom: 16px;
+    color: #0b1f4a;
+}
+
+.detail-description p {
+    line-height: 1.7;
+    color: #4c5772;
+    font-size: 15px;
+}
+
+.description-list {
+    margin-top: 16px;
+    display: grid;
+    gap: 8px;
+    color: #34405e;
+}
+
+.description-list svg {
+    color: #1fc14b;
+    margin-right: 8px;
+}
+
+.detail-amenities .amenities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+}
+
+.amenity-card {
+    border: 1px solid #edf1ff;
+    border-radius: 14px;
+    padding: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    background: #f9fbff;
+}
+
+.amenity-card img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+
+.detail-host {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.host-name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #0b1f4a;
+}
+
+.host-phone {
+    margin: 12px 0;
+    font-size: 16px;
+    color: #1a2d50;
+}
+
+.host-cta {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.detail-loading,
+.detail-error {
+    background: #fff;
+    border-radius: 16px;
+    padding: 40px;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .detail-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .price-card {
+        max-width: 100%;
+    }
+
+    .detail-host {
+        flex-direction: column;
+    }
+
+    .host-cta {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .detail-hero {
+        padding: 20px;
+    }
+
+    .detail-content {
+        padding: 20px 12px 40px;
+    }
+}
+
